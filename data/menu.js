@@ -1,9 +1,9 @@
 export const animeHolygroundLinks = [
-  { href: "/activities", text: "Activities" },
-  { href: '/mission', text: "Mission"},
-  {href: '/access', text: "Access"},
-  {href: '/after-party', text: "After Party"},
-  {href: '/contact', text: "Contact Us"}
+  { href: "/main-multi-page", text: "Activities" },
+  { href: '/main-multi-page', text: "Mission"},
+  {href: '/main-multi-page', text: "Access"},
+  {href: '/main-multi-page', text: "After Party"},
+  {href: '/main-multi-page', text: "Contact Us"}
 ]
 
 
