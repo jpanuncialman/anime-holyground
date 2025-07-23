@@ -28,6 +28,75 @@ const ParallaxContainer = dynamic(
 export default function Home1({ onePage = false, dark = false }) {
   return (
     <>
+      <section className="page-section" id="about">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-sm-4 mb-xs-50">
+                          <div className="call-action-4-images">
+                            <div className="call-action-4-image-1">
+                              <Image
+                                src="/assets/images/demo-strong/section-image-1.jpg"
+                                alt="Image description"
+                                width={500}
+                                height={692}
+                                className="wow scaleOutIn"
+                                data-wow-duration="1.2s"
+                              />
+                            </div>
+                            <div className="call-action-4-image-2">
+                              <Image
+                                src="/assets/images/demo-strong/section-image-2.jpg"
+                                alt="Image description"
+                                width={500}
+                                height={692}
+                                className="wow scaleOutIn"
+                                data-wow-duration="1.2s"
+                                data-wow-offset="0"
+                              />
+                            </div>
+                          </div>
+                        </div>
+      
+                        <div className="col-sm-8 col-lg-6 col-xl-4 offset-xl-1 mt-n10">
+                          <div className="wow linesAnimIn" data-splitting="lines">
+                            <h3 className="h5">Our Mission</h3>
+      
+                            <p className="text-gray">
+                              Resonance is an innovative and dynamic full-service
+                              creative studio that is passionate about crafting
+                              exceptional digital experiences and products. We
+                              specialize in branding, design, and engineering, and we
+                              are committed to producing work that not only looks
+                              amazing but also functions seamlessly.
+                            </p>
+      
+                            <h3 className="h5">Our Vision</h3>
+      
+                            <p className="text-gray mb-0">
+                              We work closely with our clients to develop websites,
+                              apps, and other digital products that are not only
+                              visually stunning but also intuitive and user-friendly.
+                              We always strive to ensure that our clients are
+                              completely satisfied with the final product.
+                            </p>
+                          </div>
+                        </div>
+      
+                        <div className="col-lg-2 offset-xl-1 d-none d-lg-block">
+                          <div className="overflow-hidden">
+                            <Image
+                              src="/assets/images/demo-strong/section-image-3.jpg"
+                              alt="Image description"
+                              width={330}
+                              height={894}
+                              className="wow scaleOutIn"
+                              data-wow-duration="1.2s"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
       <section
         className={`page-section scrollSpysection ${
           dark ? "bg-dark-1 light-content" : ""
