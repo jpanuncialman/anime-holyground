@@ -132,7 +132,7 @@ export default function TicketsPage() {
                       <span>Door Price: $40</span>
                     </li>
                   </ul>
-                  <p>
+                  {/*<p>
                     <strong>Anime Holyground VIP Tickets</strong>
                   </p>
                   <p>
@@ -174,7 +174,7 @@ export default function TicketsPage() {
                   <p>
                     <br />
                     <br />
-                  </p>
+                  </p>*/}
                 </div>
               </section>
             </main>

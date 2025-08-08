@@ -136,9 +136,10 @@ export default function Home1({ onePage = false, dark = false }) {
                   We’re proud of our unique selection of artists & vendors and
                   the exciting, diverse, and often interactive slew of
                   programming which will range from panels, to workshops, to
-                  interactive stage plays & anime live scoring! Of course no con
+                  interactive stage plays & anime live scoring!
+                  {/* Of course no con
                   is complete without its rave, and we’ve hand-crafted the
-                  afterparty too.
+                  afterparty too.*/}
                 </p>
                 <p className="text-gray mb-40">
                   Anime Holyground is a first year event but its being put
