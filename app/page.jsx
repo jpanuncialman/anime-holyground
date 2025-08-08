@@ -16,7 +16,7 @@ import Hero5 from "@/components/homes/home-1/heros/Hero5";
 export const metadata = {
   title: "Anime Holyground | DIY Anime Convention in Queens, NYC",
   description:
-    "Welcome to Anime Holyground, a first-year DIY anime convention in Ridgewood, Queens, NYC!",
+    "Welcome to Anime Holyground, a A DIY Anime Con for the otaku subculture and weeb community. Hosted at Stone Circle Theatre 10/18/2025!",
 };
 export default function Home1MainDemoMultiPageDark() {
   return (

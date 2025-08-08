@@ -10,6 +10,7 @@ import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
+import Link from "next/link";
 export const metadata = {
   title: "Tickets | Anime Holyground",
   description:
@@ -131,6 +132,17 @@ export default function TicketsPage() {
                       <span>Door Price: $40</span>
                     </li>
                   </ul>
+                  <Link href={"https://theticketing.co/e/animecon"}>
+                    <Image
+                      src="/assets/images/tickets/ticket-button.png"
+                      alt="Get tickets"
+                      width={440}
+                      height={225}
+                      className="wow scaleOutIn mt-20"
+                      data-wow-duration="1.2s"
+                      data-wow-offset={0}
+                    />
+                  </Link>
                   {/*<p>
                     <strong>Anime Holyground VIP Tickets</strong>
                   </p>
