@@ -33,7 +33,8 @@ export default function Home1MainDemoMultiPageDark() {
               <ParallaxContainer
                 className="home-section-custom home-section bg-gray-light-1 bg-light-alpha-30 parallax-mousemove-scene scrollSpysection"
                 style={{
-                  backgroundImage: "url(/assets/images/home/home-hero-2.png)",
+                  backgroundImage:
+                    "url(/assets/images/home/home-hero-no-text.png)",
                   backgroundSize: "100%",
                   backgroundPosition: "top center",
                 }}

@@ -1,12 +1,13 @@
 "use client";
 import AnimatedText from "@/components/common/AnimatedText";
+import Image from "next/image";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const divSections = [
   {
     className: "home-section bg-scroll bg-light-alpha-30",
-    bgImage: "/assets/images/home/home-hero-2.png",
+    bgImage: "/assets/images/home/home-hero-no-text.png",
     darkclassName: "home-section bg-scroll",
   },
   // {
@@ -55,10 +56,18 @@ export default function Hero5({ dark }) {
       </div>
       {/* End Fullwidth Slider */}
       <div className="fullwidth-galley-content">
-        <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+        <div className="container min-height-100vh d-flex align-items-end md:align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
           {/* Home Section Content */}
           <div className="home-content">
             <div className="row">
+              <Image
+                src="/assets/images/home/home-hero-text.png"
+                alt="Image description"
+                width={960}
+                height={540}
+                className="wow scaleOutIn"
+                data-wow-duration="1.2s"
+              />
               {/* Home Section Text */}
               {/* <div className="col-md-10 offset-md-1 mb-20 mb-sm-0">
                 <h2

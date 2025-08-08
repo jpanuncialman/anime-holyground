@@ -189,9 +189,8 @@ export default function Home1({ onePage = false, dark = false }) {
                   We hope you’ll consider coming to our show!
                 </h2>
                 <p className="mb-50">
-                  All this on the floor on the beautiful church floor of the
-                  Ridgewood Presbyterian Church courtesy of Stone Circle
-                  Theater.
+                  All this on the beautiful church floor of the Ridgewood
+                  Presbyterian Church courtesy of Stone Circle Theater.
                 </p>
                 {/* Features List */}
                 <div className="row mt-n20">
