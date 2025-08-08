@@ -36,7 +36,7 @@ export default function Home1({ onePage = false, dark = false }) {
               <div className="call-action-4-images">
                 <div className="call-action-4-image-1">
                   <Image
-                    src="/assets/images/home/section-img-9.jpg"
+                    src="/assets/images/home/section-image-9.jpg"
                     alt="Image description"
                     width={500}
                     height={692}
@@ -46,7 +46,7 @@ export default function Home1({ onePage = false, dark = false }) {
                 </div>
                 <div className="call-action-4-image-2">
                   <Image
-                    src="/assets/images/home/section-img-1.jpg"
+                    src="/assets/images/home/section-image-1.jpg"
                     alt="Image description"
                     width={500}
                     height={692}
@@ -85,7 +85,7 @@ export default function Home1({ onePage = false, dark = false }) {
             <div className="col-lg-2 offset-xl-1 d-none d-lg-block">
               <div className="overflow-hidden">
                 <Image
-                  src="/assets/images/home/section-img-4.jpg"
+                  src="/assets/images/home/section-image-4.jpg"
                   alt="Image description"
                   width={330}
                   height={894}
@@ -104,7 +104,7 @@ export default function Home1({ onePage = false, dark = false }) {
               <div className="call-action-4-images">
                 <div className="call-action-4-image-1">
                   <Image
-                    src="/assets/images/home/section-img-7.jpg"
+                    src="/assets/images/home/section-image-7.jpg"
                     alt="Image description"
                     width={500}
                     height={692}
@@ -119,7 +119,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   data-rellax-percentage="0.25"
                 >
                   <Image
-                    src="/assets/images/home/section-img-6.jpg"
+                    src="/assets/images/home/section-image-6.jpg"
                     alt="Image description"
                     width={500}
                     height={692}
@@ -218,7 +218,7 @@ export default function Home1({ onePage = false, dark = false }) {
               <Image
                 width={1100}
                 height={930}
-                src="/assets/images/home/section-img-8.jpg"
+                src="/assets/images/home/section-image-8.jpg"
                 alt="Image Description"
               />
             </div>
