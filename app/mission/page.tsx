@@ -36,7 +36,7 @@ export default function MissionPage() {
                   className="page-section bg-gray-light-1 bg-light-alpha-30 parallax-5"
                   style={{
                     backgroundImage:
-                      "url(/assets/images/pagebg/mission-page-bg.jpg)",
+                      "url(/assets/images/pagebg/mission-pagebg.jpg)",
                   }}
                 >
                   <div className="container position-relative pt-50 pb-100 pb-sm-20">

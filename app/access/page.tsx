@@ -36,7 +36,7 @@ export default function AccessPage() {
                   className="page-section bg-gray-light-1 bg-light-alpha-30 parallax-5"
                   style={{
                     backgroundImage:
-                      "url(/assets/images/pagebg/access-page-bg.jpg)",
+                      "url(/assets/images/pagebg/access-pagebg.jpg)",
                   }}
                 >
                   <div className="container position-relative pt-50 pb-100 pb-sm-20">
