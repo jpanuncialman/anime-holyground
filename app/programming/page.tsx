@@ -15,10 +15,9 @@ import Header2 from "@/components/headers/Header2";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Programming | Anime Holyground",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Check out the programming and activities at Anime Holyground, a new anime convention in NYC!",
 };
 export default function ProgrammingPage() {
   return (
@@ -118,7 +117,7 @@ export default function ProgrammingPage() {
                   </p>
                   <p>
                     <span>
-                      Meeting rooms within the Stone Circle Theater venue will
+                      Meeting rooms within the Stone Circle Theatre venue will
                       host a variety of hand-curated panels and workshops by
                       some of our most trusted otaku expert friends &amp;
                       charismatic weeaboo personalities.

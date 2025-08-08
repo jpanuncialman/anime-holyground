@@ -11,10 +11,9 @@ import Header2 from "@/components/headers/Header2";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Tickets | Anime Holyground",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Get ticket info and buy tickets for Anime Holyground, an anime convention in Ridgewood, Queens, NY!",
 };
 export default function TicketsPage() {
   return (

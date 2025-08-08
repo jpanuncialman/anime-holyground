@@ -15,10 +15,9 @@ import Header2 from "@/components/headers/Header2";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Mission | Anime Holyground",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Read Anime Holyground's Mission Statement and learn more about this new anime convention in NYC!",
 };
 export default function MissionPage() {
   return (
@@ -135,7 +134,7 @@ export default function MissionPage() {
                     Despite being a fully secular event, we’re enthusiastic to
                     be able to bring this day to life in the gorgeous Ridgewood
                     Presbyterian Church space in conjunction with Stone Circle
-                    Theater.
+                    Theatre.
                   </p>
 
                   <p>

@@ -15,10 +15,9 @@ import Header2 from "@/components/headers/Header2";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Access | Anime Holyground",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Learn how to reach the new NYC anime convention Anime Holyground, based in Ridgwood, NY's Stone Circle Theatre",
 };
 export default function AccessPage() {
   return (
@@ -98,7 +97,7 @@ export default function AccessPage() {
                 <div className="container position-relative">
                   <p>
                     <span>
-                      Stone Circle Theater is a part of the Ridgewood
+                      Stone Circle Theatre is a part of the Ridgewood
                       Presbyterian Church, found in Ridgewood Queens.
                     </span>
                   </p>
@@ -110,7 +109,7 @@ export default function AccessPage() {
                       scrolling="no"
                       // marginheight="0"
                       // marginwidth="0"
-                      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=59-14%2070th%20Ave,%20Ridgewood,%20NY%2011385+(Stone%20Circle%20Theater)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=59-14%2070th%20Ave,%20Ridgewood,%20NY%2011385+(Stone%20Circle%20Theatre)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                     >
                       <a href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">
                         Estimer la population sur la carte
