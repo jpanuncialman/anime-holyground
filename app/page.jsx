@@ -12,6 +12,7 @@ import Header1Multipage from "@/components/headers/Header1Multipage";
 import { animeHolygroundLinks } from "@/data/menu";
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
+import Hero5 from "@/components/homes/home-1/heros/Hero5";
 export const metadata = {
   title:
     "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
@@ -21,30 +22,59 @@ export const metadata = {
 export default function Home1MainDemoMultiPageDark() {
   return (
     <>
-      <div className="dark-mode">
+      <div className="theme-main">
         {" "}
         <div className="theme-main">
-          <div className="page bg-dark-1" id="top">
-            <nav className="main-nav dark dark-mode transparent stick-fixed wow-menubar">
+          <div className="page" id="top">
+            <nav className="main-nav transparent stick-fixed wow-menubar">
               <Header2 links={animeHolygroundLinks} />
             </nav>{" "}
             <main id="main">
               <ParallaxContainer
-                className="home-section bg-dark-1 bg-dark-alpha-90 light-content parallax-5 parallax-mousemove-scene scrollSpysection"
+                className="home-section-custom home-section bg-gray-light-1 bg-light-alpha-30 parallax-mousemove-scene scrollSpysection"
                 style={{
-                  backgroundImage:
-                    "url(/assets/images/home-bg.jpg)",
+                  backgroundImage: "url(/assets/images/home/home-hero-2.png)",
+                  backgroundSize: "100%",
+                  backgroundPosition: "top center",
                 }}
                 id="home"
               >
-                <Hero1 />
+                <Hero5 />
               </ParallaxContainer>
-              <Home1 dark={true} />
+              <Home1 />
             </main>
-            <Footer1 dark />
+            <Footer1 />
           </div>{" "}
         </div>
       </div>{" "}
     </>
   );
 }
+
+// export default function Home1MainDemoMultiPage() {
+//   return (
+//     <>
+//       <div className="theme-main">
+//         <div className="page" id="top">
+//           <nav className="main-nav transparent stick-fixed wow-menubar">
+//             <Header1Multipage links={menuItems} />
+//           </nav>
+//           <main id="main">
+//             <ParallaxContainer
+//               className="home-section bg-gray-light-1 bg-light-alpha-90 parallax-5 parallax-mousemove-scene scrollSpysection"
+//               style={{
+//                 backgroundImage:
+//                   "url(/assets/images/full-width-images/section-bg-1.jpg)",
+//               }}
+//               id="home"
+//             >
+//               <Hero1 />
+//             </ParallaxContainer>
+//             <Home1 />
+//           </main>
+//           <Footer1 />
+//         </div>{" "}
+//       </div>
+//     </>
+//   );
+// }

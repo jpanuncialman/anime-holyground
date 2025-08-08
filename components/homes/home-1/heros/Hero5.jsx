@@ -5,20 +5,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const divSections = [
   {
-    className: "home-section bg-scroll bg-light-alpha-60",
-    bgImage: "/assets/images/full-width-images/section-bg-7.jpg",
-    darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+    className: "home-section bg-scroll bg-light-alpha-30",
+    bgImage: "/assets/images/home/home-hero-2.png",
+    darkclassName: "home-section bg-scroll",
   },
-  {
-    className: "home-section bg-scroll",
-    darkclassName: "home-section bg-scroll bg-dark-alpha-70",
-    bgImage: "/assets/images/full-width-images/section-bg-8.jpg",
-  },
-  {
-    className: "home-section bg-scroll bg-light-alpha-50",
-    bgImage: "/assets/images/full-width-images/section-bg-9.jpg",
-    darkclassName: "home-section bg-scroll bg-dark-alpha-70",
-  },
+  // {
+  //   className: "home-section bg-scroll",
+  //   darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+  //   bgImage: "/assets/images/home",
+  // },
+  // {
+  //   className: "home-section bg-scroll bg-light-alpha-50",
+  //   bgImage: "/assets/images/full-width-images/section-bg-9.jpg",
+  //   darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+  // },
 ];
 export default function Hero5({ dark }) {
   return (
@@ -60,7 +60,7 @@ export default function Hero5({ dark }) {
           <div className="home-content">
             <div className="row">
               {/* Home Section Text */}
-              <div className="col-md-10 offset-md-1 mb-20 mb-sm-0">
+              {/* <div className="col-md-10 offset-md-1 mb-20 mb-sm-0">
                 <h2
                   className="hs-title-11 mb-30 mb-xs-10 wow fadeInUp"
                   data-wow-duration="1.2s"
@@ -112,7 +112,7 @@ export default function Hero5({ dark }) {
                     </span>
                   </a>
                 </div>
-              </div>
+              </div> */}
               {/* End Home Section Text */}
             </div>
           </div>
@@ -130,9 +130,9 @@ export default function Hero5({ dark }) {
           </div>
           {/* End Scroll Down */}
           {/* Status */}
-          <div className="hs-status wow fadeInUp" data-wow-offset={0}>
+          {/* <div className="hs-status wow fadeInUp" data-wow-offset={0}>
             Based in London, United Kingdom
-          </div>
+          </div> */}
           {/* End Status */}
         </div>
       </div>

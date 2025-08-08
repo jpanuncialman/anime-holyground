@@ -1,5 +1,3 @@
-import Header1 from "@/components/headers/Header1";
-import Home1 from "@/components/homes/home-1";
 import dynamic from "next/dynamic";
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
@@ -7,8 +5,6 @@ const ParallaxContainer = dynamic(
     ssr: false, // Disable server-side rendering
   }
 );
-import Hero1 from "@/components/homes/home-1/heros/Hero1";
-import Header1Multipage from "@/components/headers/Header1Multipage";
 import { animeHolygroundLinks } from "@/data/menu";
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
@@ -20,7 +16,7 @@ export const metadata = {
   description:
     "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
 };
-export default function AccessPage() {
+export default function MarketplacePage() {
   return (
     <>
       <div className="theme-main">
@@ -36,7 +32,7 @@ export default function AccessPage() {
                   className="page-section bg-gray-light-1 bg-light-alpha-30 parallax-5"
                   style={{
                     backgroundImage:
-                      "url(/assets/images/pagebg/access-page-bg.jpg)",
+                      "url(/assets/images/pagebg/marketplace-page-bg.jpg)",
                   }}
                 >
                   <div className="container position-relative pt-50 pb-100 pb-sm-20">
@@ -56,7 +52,7 @@ export default function AccessPage() {
                               className="wow charsAnimIn"
                               data-splitting="chars"
                             >
-                              <AnimatedText text="Access" />
+                              <AnimatedText text="Marketplace" />
                             </span>
                           </h1>
                           <div className="row">
@@ -82,7 +78,7 @@ export default function AccessPage() {
                   <div className="container">
                     <div className="mt-n120 mt-n60 overflow-hidden">
                       <Image
-                        src="/assets/images/banners/banner-access.png"
+                        src="/assets/images/banners/banner-marketplace.png"
                         alt="Image Description"
                         width={1920}
                         height={1080}
@@ -98,40 +94,39 @@ export default function AccessPage() {
                 <div className="container position-relative">
                   <p>
                     <span>
-                      Stone Circle Theater is a part of the Ridgewood
-                      Presbyterian Church, found in Ridgewood Queens.
+                      Anime Holyground is proud to bring to attendees a curated
+                      selection of artists and vendors to the Stone Circle
+                      Theater church floor marketplace.&nbsp;
                     </span>
                   </p>
-                  <div style={{ width: "100%" }}>
-                    <iframe
-                      width="100%"
-                      height="600"
-                      // frameborder="0"
-                      scrolling="no"
-                      // marginheight="0"
-                      // marginwidth="0"
-                      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=59-14%2070th%20Ave,%20Ridgewood,%20NY%2011385+(Stone%20Circle%20Theater)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    >
-                      <a href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">
-                        Estimer la population sur la carte
-                      </a>
-                    </iframe>
-                  </div>
-                  <p>
-                    Those taking the Subway, take the M Train to Forest Av, walk
-                    down Forest Avenue until you hit 70th street, and the venue
-                    will be right to your left.
-                  </p>
-                  <p>
-                    You can also take either the Q39 or Q55 bus to the Forest
-                    Ave / Myrtle Ave cross section which lets off just a minute
-                    away from the venue!
-                  </p>
-                  <h5>Address:</h5>
                   <p>
                     <span>
-                      59-14 70th Avenue, Ridgewood, New York 11385, United
-                      States
+                      Attendees will soak in the cool atmosphere of the church
+                      while strolling around the bright marketplace, filled with
+                      a hand-picked slew of distinct artists and inspired
+                      purveyors we love.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      We want to showcase a large variety of artists and goodies
+                      that both take from anime while simultaneously expressing
+                      their own inner world! We&rsquo;re confident that any and
+                      every attendee will find something novel and genuine to
+                      bring home.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      The Anime Holyground Marketplace will be open until
+                      Evening Programming begins, giving attendees plenty of
+                      time to peruse sub-cultural goodies on the floor of the
+                      church!
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Full vendor list will be made available in late September!
                     </span>
                   </p>
                 </div>

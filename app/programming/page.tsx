@@ -20,7 +20,7 @@ export const metadata = {
   description:
     "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
 };
-export default function AccessPage() {
+export default function ProgrammingPage() {
   return (
     <>
       <div className="theme-main">
@@ -36,7 +36,7 @@ export default function AccessPage() {
                   className="page-section bg-gray-light-1 bg-light-alpha-30 parallax-5"
                   style={{
                     backgroundImage:
-                      "url(/assets/images/pagebg/access-page-bg.jpg)",
+                      "url(/assets/images/pagebg/programming-page-bg.jpg)",
                   }}
                 >
                   <div className="container position-relative pt-50 pb-100 pb-sm-20">
@@ -56,7 +56,7 @@ export default function AccessPage() {
                               className="wow charsAnimIn"
                               data-splitting="chars"
                             >
-                              <AnimatedText text="Access" />
+                              <AnimatedText text="Programming" />
                             </span>
                           </h1>
                           <div className="row">
@@ -82,7 +82,7 @@ export default function AccessPage() {
                   <div className="container">
                     <div className="mt-n120 mt-n60 overflow-hidden">
                       <Image
-                        src="/assets/images/banners/banner-access.png"
+                        src="/assets/images/banners/banner-programming.png"
                         alt="Image Description"
                         width={1920}
                         height={1080}
@@ -98,42 +98,87 @@ export default function AccessPage() {
                 <div className="container position-relative">
                   <p>
                     <span>
-                      Stone Circle Theater is a part of the Ridgewood
-                      Presbyterian Church, found in Ridgewood Queens.
+                      Anime Holyground is proud to offer a wide variety of
+                      programming that&rsquo;s either entirely hand-developed or
+                      hand-curated by the team!
                     </span>
                   </p>
-                  <div style={{ width: "100%" }}>
-                    <iframe
-                      width="100%"
-                      height="600"
-                      // frameborder="0"
-                      scrolling="no"
-                      // marginheight="0"
-                      // marginwidth="0"
-                      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=59-14%2070th%20Ave,%20Ridgewood,%20NY%2011385+(Stone%20Circle%20Theater)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    >
-                      <a href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">
-                        Estimer la population sur la carte
-                      </a>
-                    </iframe>
-                  </div>
+                  <p>&nbsp;</p>
                   <p>
-                    Those taking the Subway, take the M Train to Forest Av, walk
-                    down Forest Avenue until you hit 70th street, and the venue
-                    will be right to your left.
+                    <strong>Daytime Programming</strong>
                   </p>
-                  <p>
-                    You can also take either the Q39 or Q55 bus to the Forest
-                    Ave / Myrtle Ave cross section which lets off just a minute
-                    away from the venue!
-                  </p>
-                  <h5>Address:</h5>
                   <p>
                     <span>
-                      59-14 70th Avenue, Ridgewood, New York 11385, United
-                      States
+                      Enjoy more passive content during the day right in the
+                      pews of the church like anime karaoke, an eclectic and
+                      inspired selection of video content, and The Weeb Soapbox
+                      that allow you to bathe in your love for anime while
+                      basking in the holy atmosphere of the cathedral.&nbsp;
                     </span>
                   </p>
+                  <p>
+                    <span>
+                      Meeting rooms within the Stone Circle Theater venue will
+                      host a variety of hand-curated panels and workshops by
+                      some of our most trusted otaku expert friends &amp;
+                      charismatic weeaboo personalities.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Express yourself and learn a thing or two along the way!
+                    </span>
+                  </p>
+                  <p>
+                    <strong>Evening Programming&nbsp;</strong>
+                  </p>
+                  <p>
+                    <span>
+                      We&rsquo;re especially excited for our main events block
+                      in the evening that&rsquo;ll all unfurl on the church
+                      stage so far including!&nbsp;
+                    </span>
+                    &nbsp;
+                  </p>
+                  <ul>
+                    <li>
+                      <span>
+                        Cosplay&amp; Larp with the an interactive masquerade
+                        stage play centered around a certain Anti-Hero Hedgehog
+                      </span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <span>
+                        Test your otaku mettle in the Queen&rsquo;s Greatest
+                        Otaku Gameshow
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        Enjoy a variety anime live scored by the keys &amp;
+                        chords genius Maxo
+                      </span>
+                    </li>
+                  </ul>
+                  <p>
+                    <span>
+                      We&rsquo;ve placed an emphasis on performer creativity
+                      &amp; audience interactivity while developing the above
+                      programming block which aims to give congoers a communal
+                      experience they won&rsquo;t find elsewhere!
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Whether you&rsquo;re the type who enjoys rigorously
+                      researched anime panels or just want to kick back and have
+                      a great time, we&rsquo;re sure Anime Holyground has
+                      something for you
+                    </span>
+                  </p>
+                  <p>The full schedule will be revealed in late September!</p>
                 </div>
               </section>
             </main>

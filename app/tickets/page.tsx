@@ -1,5 +1,3 @@
-import Header1 from "@/components/headers/Header1";
-import Home1 from "@/components/homes/home-1";
 import dynamic from "next/dynamic";
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
@@ -7,8 +5,6 @@ const ParallaxContainer = dynamic(
     ssr: false, // Disable server-side rendering
   }
 );
-import Hero1 from "@/components/homes/home-1/heros/Hero1";
-import Header1Multipage from "@/components/headers/Header1Multipage";
 import { animeHolygroundLinks } from "@/data/menu";
 import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
@@ -20,7 +16,7 @@ export const metadata = {
   description:
     "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
 };
-export default function AccessPage() {
+export default function TicketsPage() {
   return (
     <>
       <div className="theme-main">
@@ -36,7 +32,7 @@ export default function AccessPage() {
                   className="page-section bg-gray-light-1 bg-light-alpha-30 parallax-5"
                   style={{
                     backgroundImage:
-                      "url(/assets/images/pagebg/access-page-bg.jpg)",
+                      "url(/assets/images/pagebg/tickets-page-bg.jpg)",
                   }}
                 >
                   <div className="container position-relative pt-50 pb-100 pb-sm-20">
@@ -56,7 +52,7 @@ export default function AccessPage() {
                               className="wow charsAnimIn"
                               data-splitting="chars"
                             >
-                              <AnimatedText text="Access" />
+                              <AnimatedText text="Tickets" />
                             </span>
                           </h1>
                           <div className="row">
@@ -82,7 +78,7 @@ export default function AccessPage() {
                   <div className="container">
                     <div className="mt-n120 mt-n60 overflow-hidden">
                       <Image
-                        src="/assets/images/banners/banner-access.png"
+                        src="/assets/images/banners/banner-tickets.png"
                         alt="Image Description"
                         width={1920}
                         height={1080}
@@ -97,42 +93,87 @@ export default function AccessPage() {
               <section className="page-section">
                 <div className="container position-relative">
                   <p>
-                    <span>
-                      Stone Circle Theater is a part of the Ridgewood
-                      Presbyterian Church, found in Ridgewood Queens.
-                    </span>
+                    Thanks for your interest in Anime Holyground! We&rsquo;re a
+                    first year DIY experience so every bit of support helps!
                   </p>
-                  <div style={{ width: "100%" }}>
-                    <iframe
-                      width="100%"
-                      height="600"
-                      // frameborder="0"
-                      scrolling="no"
-                      // marginheight="0"
-                      // marginwidth="0"
-                      src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=59-14%2070th%20Ave,%20Ridgewood,%20NY%2011385+(Stone%20Circle%20Theater)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    >
-                      <a href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte">
-                        Estimer la population sur la carte
-                      </a>
-                    </iframe>
-                  </div>
-                  <p>
-                    Those taking the Subway, take the M Train to Forest Av, walk
-                    down Forest Avenue until you hit 70th street, and the venue
-                    will be right to your left.
-                  </p>
-                  <p>
-                    You can also take either the Q39 or Q55 bus to the Forest
-                    Ave / Myrtle Ave cross section which lets off just a minute
-                    away from the venue!
-                  </p>
-                  <h5>Address:</h5>
                   <p>
                     <span>
-                      59-14 70th Avenue, Ridgewood, New York 11385, United
-                      States
+                      Tickets for Anime Holyground are extremely limited due to
+                      the size of the venue and the DIY nature of the event! If
+                      you want to ensure your spot at Anime Holyground, we
+                      highly recommend preregistering in advance!
                     </span>
+                  </p>
+                  <p>
+                    <span>
+                      Door tickets may not be available either depending on how
+                      many attendees preregister so get yours now and join us
+                      for a holy weeaboo subcultural experience!
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Please note this is an all ages DIY event hosted at a
+                      church and while we all like to have a good time at cons,
+                      we humbly ask congoers to refrain from sneaking in
+                      alcohol, THC products, and other paraphernalia. As it puts
+                      the event &amp; venue in legal danger, there will be a 0
+                      strike policy for such occurrences.
+                    </span>
+                  </p>
+                  <p>
+                    <strong>Anime Holyground General Admission Tickets</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      <span>Pre-Reg Price: $35</span>
+                    </li>
+                    <li>
+                      <span>Door Price: $40</span>
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Anime Holyground VIP Tickets</strong>
+                  </p>
+                  <p>
+                    <span>
+                      For those who truly want the Anime Holyground experience
+                      to have as much polish as possible! We&rsquo;re forever in
+                      the debt of anyone who wants to support us at this level!
+                    </span>
+                  </p>
+                  <p>
+                    <span>The VIP Ticket Package Includes</span>
+                  </p>
+                  <ul>
+                    <li>
+                      <span>Pre-Reg Badge</span>
+                    </li>
+                    <li>
+                      <span>Front Pew Access For Evening Events</span>
+                    </li>
+                    <li>
+                      <span>Official Anime Holyground T-Shirt</span>
+                    </li>
+                    <li>
+                      <span>Ticket For The Anime Holyground After Party</span>
+                    </li>
+                  </ul>
+                  <p>
+                    <span>VIP Ticket Package Price $100</span>
+                  </p>
+                  <p>
+                    <span>Limited To 10!</span>
+                  </p>
+                  <p>
+                    <span>
+                      Live ticketing is hosted by our partners at Stone Circle
+                      theater!
+                    </span>
+                  </p>
+                  <p>
+                    <br />
+                    <br />
                   </p>
                 </div>
               </section>

@@ -2,9 +2,10 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import Home1 from "@/components/homes/home-1";
+import Hero2 from "@/components/homes/home-1/heros/Hero2";
 import { menuItems } from "@/data/menu";
 import Hero1 from "@/components/homes/home-1/heros/Hero1";
-import Hero2 from "@/components/homes/home-1/heros/Hero2";
+// import Hero2 from "@/components/homes/home-1/heros/Hero2";
 import Image from "next/image";
 
 export const metadata = {
@@ -35,7 +36,7 @@ export default function Home1TypedTextMultiPage() {
                   className="opacity-05"
                 />
               </div>
-              <Hero2 />
+              <Hero1 />
             </section>
             <Home1 />
           </main>
