@@ -11,10 +11,9 @@ import Header2 from "@/components/headers/Header2";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Marketplace | Artists & Vendors | Anime Holyground",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Looking to sell your wares and goods at an anime convention? Learn more about the marketplace at Anime Holyground, a new anime con in NYC!",
 };
 export default function MarketplacePage() {
   return (
@@ -96,7 +95,7 @@ export default function MarketplacePage() {
                     <span>
                       Anime Holyground is proud to bring to attendees a curated
                       selection of artists and vendors to the Stone Circle
-                      Theater church floor marketplace.&nbsp;
+                      Theatre church floor marketplace.&nbsp;
                     </span>
                   </p>
                   <p>

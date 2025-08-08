@@ -35,7 +35,7 @@ export default function Hero1() {
                 >
                   Welcome to Anime Holyground, a first year DIY anime convention
                   found in the heart of queens! Hosted at the Stone Circle
-                  Theater in Ridgewood, Anime Holyground puts con-goers on the
+                  Theatre in Ridgewood, Anime Holyground puts con-goers on the
                   church-floor literally, to bask in ethereal glow as we all
                   come together to share our love for anime and Japanese
                   subculture!

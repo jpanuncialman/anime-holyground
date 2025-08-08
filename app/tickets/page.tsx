@@ -10,11 +10,11 @@ import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
+import Link from "next/link";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Tickets | Anime Holyground",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Get ticket info and buy tickets for Anime Holyground, an anime convention in Ridgewood, Queens, NY!",
 };
 export default function TicketsPage() {
   return (
@@ -132,6 +132,17 @@ export default function TicketsPage() {
                       <span>Door Price: $40</span>
                     </li>
                   </ul>
+                  <Link href={"https://theticketing.co/e/animecon"}>
+                    <Image
+                      src="/assets/images/tickets/ticket-button.png"
+                      alt="Get tickets"
+                      width={440}
+                      height={225}
+                      className="wow scaleOutIn mt-20"
+                      data-wow-duration="1.2s"
+                      data-wow-offset={0}
+                    />
+                  </Link>
                   {/*<p>
                     <strong>Anime Holyground VIP Tickets</strong>
                   </p>

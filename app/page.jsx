@@ -14,10 +14,9 @@ import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import Hero5 from "@/components/homes/home-1/heros/Hero5";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Anime Holyground | DIY Anime Convention in Queens, NYC",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Welcome to Anime Holyground, a A DIY Anime Con for the otaku subculture and weeb community. Hosted at Stone Circle Theatre 10/18/2025!",
 };
 export default function Home1MainDemoMultiPageDark() {
   return (
