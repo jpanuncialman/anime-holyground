@@ -24,15 +24,15 @@ export default function Header2({ links }) {
           <Image
             src="/assets/images/anime-holyground-logo.png"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={157.5}
+            height={48}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/anime-holyground-logo.png"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={157.5}
+            height={48}
             className="dark-mode-logo"
           />
         </Link>
