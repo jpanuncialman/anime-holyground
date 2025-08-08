@@ -14,23 +14,18 @@ export default function Hero1() {
 
   return (
     <>
-      <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+      <div
+        style={{ minHeight: "1080px" }}
+        className="container d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120"
+      >
         {/* Home Section Content */}
         <div className="home-content text-start">
           <div className="row">
             {/* Home Section Text */}
             <div className="col-md-6 d-flex align-items-center mb-sm-60">
-              <div>
-                <h2
-                  className="section-caption mb-30 mb-xs-10 wow fadeInUp"
-                  data-wow-duration="1.2s"
-                >
-                  Resonance Creative Studio
-                </h2>
+              {/* <div>
                 <h1 className="hs-title-1 mb-30">
-                  <AnimatedText
-                    text={"Grow your business with a new website."}
-                  />
+                  <AnimatedText text={"Anime Holyground"} />
                 </h1>
 
                 <p
@@ -38,8 +33,12 @@ export default function Hero1() {
                   data-wow-delay="0.6s"
                   data-wow-duration="1.2s"
                 >
-                  Resonance is a full-service creative studio creating beautiful
-                  digital experiences and products.
+                  Welcome to Anime Holyground, a first year DIY anime convention
+                  found in the heart of queens! Hosted at the Stone Circle
+                  Theater in Ridgewood, Anime Holyground puts con-goers on the
+                  church-floor literally, to bask in ethereal glow as we all
+                  come together to share our love for anime and Japanese
+                  subculture!
                 </p>
                 <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
@@ -48,43 +47,43 @@ export default function Hero1() {
                   data-wow-offset={0}
                 >
                   <a
-                    href="#about"
+                    href="/programming"
                     className="btn btn-mod btn-large btn-round btn-hover-anim align-middle me-2 me-sm-5 mt-10"
                   >
-                    <span>Discover now</span>
+                    <span>Programming</span>
                   </a>
                   <a
-                    onClick={() => setOpen(true)}
+                    href="/tickets"
                     className="link-hover-anim align-middle lightbox mfp-iframe mt-10"
                     data-link-animate="y"
                   >
-                    <i className="icon-play size-13 me-1" /> How it works?
+                    <i className="icon-play size-13 me-1" /> Get Tickets
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* End Home Section Text */}
             {/* Stack Images */}
             <div className="col-md-5 offset-md-1 d-flex align-items-center">
-              <div className="stack-images">
+              {/* <div className="stack-images">
                 <div
                   className="stack-images-1 parallax-mousemove"
                   data-offset={30}
-                >
-                  <div
+                > */}
+              {/* <div
                     className="wow clipRightIn"
                     data-wow-delay="1.2s"
                     data-wow-duration="1.75s"
-                  >
-                    <Image
-                      src="/assets/images/stack-image-1.jpg"
+                  > */}
+              {/* <Image
+                      src="/assets/images/anime-holyground-logo-church.png"
                       alt="Image Description"
-                      width={600}
-                      height={800}
-                    />
-                  </div>
-                </div>
-                <div
+                      width={800}
+                      height={600}
+                    /> */}
+              {/* </div> */}
+              {/* </div> */}
+              {/* <div
                   className="stack-images-2 parallax-mousemove"
                   data-offset={60}
                 >
@@ -117,8 +116,8 @@ export default function Hero1() {
                       alt="Image Description"
                     />
                   </div>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */}
             </div>
             {/* End Stack Images */}
           </div>

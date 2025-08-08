@@ -22,17 +22,17 @@ export default function Header2({ links }) {
       <div className="nav-logo-wrap local-scroll">
         <Link href="/" className="logo font-alt">
           <Image
-            src="/assets/images/logo-dark.svg"
+            src="/assets/images/anime-holyground-logo.png"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={157.5}
+            height={48}
             className="light-mode-logo"
           />
           <Image
-            src="/assets/images/logo-white.svg"
+            src="/assets/images/anime-holyground-logo.png"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={157.5}
+            height={48}
             className="dark-mode-logo"
           />
         </Link>
@@ -54,21 +54,21 @@ export default function Header2({ links }) {
         </ul>
         <ul className="items-end clearlist local-scroll">
           <li>
-            <a href="#contact" className="opacity-1 no-hover">
+            <a href="/tickets" className="opacity-1 no-hover">
               <span
                 className="btn btn-mod btn-small btn-border btn-border-white btn-circle ttn"
                 data-btn-animate="y"
               >
                 <span className="btn-animate-y">
                   <span className="btn-animate-y-1">
-                    Let’s talk{" "}
+                    Get Tickets{" "}
                     <i
                       className="icon-arrow-right1 size-16"
                       aria-hidden="true"
                     ></i>
                   </span>
                   <span className="btn-animate-y-2" aria-hidden="true">
-                    Let’s talk{" "}
+                    Get Tickets{" "}
                     <i
                       className="icon-arrow-right1 size-16"
                       aria-hidden="true"

@@ -1,24 +1,25 @@
 "use client";
 import AnimatedText from "@/components/common/AnimatedText";
+import Image from "next/image";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const divSections = [
   {
-    className: "home-section bg-scroll bg-light-alpha-60",
-    bgImage: "/assets/images/full-width-images/section-bg-7.jpg",
-    darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+    className: "home-section bg-scroll bg-light-alpha-30",
+    bgImage: "/assets/images/home/home-hero-no-text.png",
+    darkclassName: "home-section bg-scroll",
   },
-  {
-    className: "home-section bg-scroll",
-    darkclassName: "home-section bg-scroll bg-dark-alpha-70",
-    bgImage: "/assets/images/full-width-images/section-bg-8.jpg",
-  },
-  {
-    className: "home-section bg-scroll bg-light-alpha-50",
-    bgImage: "/assets/images/full-width-images/section-bg-9.jpg",
-    darkclassName: "home-section bg-scroll bg-dark-alpha-70",
-  },
+  // {
+  //   className: "home-section bg-scroll",
+  //   darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+  //   bgImage: "/assets/images/home",
+  // },
+  // {
+  //   className: "home-section bg-scroll bg-light-alpha-50",
+  //   bgImage: "/assets/images/full-width-images/section-bg-9.jpg",
+  //   darkclassName: "home-section bg-scroll bg-dark-alpha-70",
+  // },
 ];
 export default function Hero5({ dark }) {
   return (
@@ -55,12 +56,20 @@ export default function Hero5({ dark }) {
       </div>
       {/* End Fullwidth Slider */}
       <div className="fullwidth-galley-content">
-        <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+        <div className="container min-height-100vh d-flex align-items-end md:align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
           {/* Home Section Content */}
           <div className="home-content">
             <div className="row">
+              <Image
+                src="/assets/images/home/home-hero-text.png"
+                alt="Image description"
+                width={960}
+                height={540}
+                className="wow scaleOutIn"
+                data-wow-duration="1.2s"
+              />
               {/* Home Section Text */}
-              <div className="col-md-10 offset-md-1 mb-20 mb-sm-0">
+              {/* <div className="col-md-10 offset-md-1 mb-20 mb-sm-0">
                 <h2
                   className="hs-title-11 mb-30 mb-xs-10 wow fadeInUp"
                   data-wow-duration="1.2s"
@@ -112,7 +121,7 @@ export default function Hero5({ dark }) {
                     </span>
                   </a>
                 </div>
-              </div>
+              </div> */}
               {/* End Home Section Text */}
             </div>
           </div>
@@ -130,9 +139,9 @@ export default function Hero5({ dark }) {
           </div>
           {/* End Scroll Down */}
           {/* Status */}
-          <div className="hs-status wow fadeInUp" data-wow-offset={0}>
+          {/* <div className="hs-status wow fadeInUp" data-wow-offset={0}>
             Based in London, United Kingdom
-          </div>
+          </div> */}
           {/* End Status */}
         </div>
       </div>

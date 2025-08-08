@@ -19,6 +19,7 @@ import Testimonials2 from "./Teatimonials2";
 import Brands2 from "./Brands2";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Split from "./Split";
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
   {
@@ -28,279 +29,100 @@ const ParallaxContainer = dynamic(
 export default function Home1({ onePage = false, dark = false }) {
   return (
     <>
-      <section
-        className={`page-section scrollSpysection ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="about"
-      >
-        <div className="container position-relative">
-          <div className="row mb-60 mb-xs-30">
-            <div className="col-md-6">
-              <h2 className="section-caption mb-xs-10">Our Story</h2>
-              <h3 className="section-title mb-0">
-                <AnimatedText text="Better way to create stanning layouts." />
-              </h3>
+      <section className="page-section" id="about">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-4 mb-xs-50">
+              <div className="call-action-4-images">
+                <div className="call-action-4-image-1">
+                  <Image
+                    src="/assets/images/home/section-image-9.jpg"
+                    alt="Image description"
+                    width={500}
+                    height={692}
+                    className="wow scaleOutIn"
+                    data-wow-duration="1.2s"
+                  />
+                </div>
+                <div className="call-action-4-image-2">
+                  <Image
+                    src="/assets/images/home/section-image-1.jpg"
+                    alt="Image description"
+                    width={500}
+                    height={692}
+                    className="wow scaleOutIn"
+                    data-wow-duration="1.2s"
+                    data-wow-offset="0"
+                  />
+                </div>
+              </div>
             </div>
-            <div className="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
-              {/* Decorative Dots */}
-              <div
-                className="decoration-2 d-none d-md-block"
-                data-rellax-y=""
-                data-rellax-speed="0.7"
-                data-rellax-percentage="-0.2"
-              >
+
+            <div className="col-sm-8 col-lg-6 col-xl-4 offset-xl-1 mt-n10">
+              <div className="wow linesAnimIn" data-splitting="lines">
+                <h3 className="h5">
+                  Welcome to Anime Holyground, a first year DIY anime convention
+                  found in the heart of queens!
+                </h3>
+
+                <p className="text-gray">
+                  Hosted at the Stone Circle Theater in Ridgewood, Anime
+                  Holyground puts con-goers on the church-floor literally, to
+                  bask in ethereal glow as we all come together to share our
+                  love for anime and Japanese subculture!
+                </p>
+
+                <p className="text-gray">
+                  Every aspect of Anime Holyground has been carefully curated,
+                  if not fully developed, by its showrunners, the mad-weebs
+                  behinds Weeb Adjacent and Love & Mania, with an emphasis on
+                  interactivity & community alongside a respect for otaku
+                  tradition and the artform of Japanese media.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 offset-xl-1 d-none d-lg-block">
+              <div className="overflow-hidden">
                 <Image
-                  width="103"
-                  height="223"
-                  src="/assets/images/decoration-2.svg"
-                  alt=""
+                  src="/assets/images/home/section-image-4.jpg"
+                  alt="Image description"
+                  width={330}
+                  height={894}
+                  className="wow scaleOutIn"
+                  data-wow-duration="1.2s"
                 />
               </div>
-              {/* End Decorative Dots */}
-
-              {onePage ? (
-                <a
-                  href="#team"
-                  className="link-hover-anim underline align-middle"
-                  data-link-animate="y"
-                >
-                  <span className="link-strong link-strong-unhovered">
-                    Learn more about us{" "}
-                    <i
-                      className="mi-arrow-right size-18"
-                      aria-hidden="true"
-                    ></i>
-                  </span>
-                  <span
-                    className="link-strong link-strong-hovered"
-                    aria-hidden="true"
-                  >
-                    Learn more about us{" "}
-                    <i
-                      className="mi-arrow-right size-18"
-                      aria-hidden="true"
-                    ></i>
-                  </span>
-                </a>
-              ) : (
-                <Link
-                  href={`/main-pages-about-1${dark ? "-dark" : ""}`}
-                  className="link-hover-anim underline align-middle"
-                  data-link-animate="y"
-                >
-                  <span className="link-strong link-strong-unhovered">
-                    Learn more about us{" "}
-                    <i
-                      className="mi-arrow-right size-18"
-                      aria-hidden="true"
-                    ></i>
-                  </span>
-                  <span
-                    className="link-strong link-strong-hovered"
-                    aria-hidden="true"
-                  >
-                    Learn more about us{" "}
-                    <i
-                      className="mi-arrow-right size-18"
-                      aria-hidden="true"
-                    ></i>
-                  </span>
-                </Link>
-              )}
-            </div>
-          </div>
-          <About />
-        </div>
-      </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-2 light-content" : "bg-gray-light-1 "
-        }`}
-        id="team"
-      >
-        <Team />
-      </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="services"
-      >
-        {" "}
-        <Service />
-      </section>
-
-      <ParallaxContainer
-        className="page-section bg-dark-1 bg-dark-alpha-90 parallax-5 light-content"
-        style={{
-          backgroundImage:
-            "url(/assets/images/full-width-images/section-bg-2.jpg)",
-        }}
-      >
-        <div className="container position-relative">
-          <div className="row">
-            <div className="col-lg-4 mb-md-60 mb-xs-50">
-              <h2 className="section-title mb-20 wow fadeInUp">
-                Check recent achievements.
-              </h2>
-              <p
-                className="section-descr mb-40 wow fadeInUp"
-                data-wow-delay="0.1s"
-              >
-                We provide the effective ideas that grow businesses of our
-                clients.
-              </p>
-              <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
-                {onePage ? (
-                  <a
-                    href="#contact"
-                    className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
-                  >
-                    <span>Request Price</span>
-                  </a>
-                ) : (
-                  <Link
-                    href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
-                    className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
-                  >
-                    <span>Request Price</span>
-                  </Link>
-                )}
-              </div>
-            </div>{" "}
-            <Facts />
-          </div>
-        </div>
-      </ParallaxContainer>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="portfolio"
-      >
-        <Portfolio />
-      </section>
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
-        className={`page-section  ${
-          dark ? "bg-dark-1 light-content z-index-1" : ""
-        }`}
-      >
-        <div className="container position-relative">
-          {/* Decorative Waves */}
-          <div
-            className="decoration-3 d-none d-sm-block"
-            data-rellax-y=""
-            data-rellax-speed="-0.7"
-            data-rellax-percentage="0.5"
-          >
-            <Image
-              width={148}
-              height={148}
-              className="svg-shape"
-              src="/assets/images/decoration-3.svg"
-              alt=""
-            />
-          </div>
-          {/* End Decorative Waves */}
-          <div className="row text-center wow fadeInUp">
-            <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-              <p className="section-descr mb-50 mb-sm-30">
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
-              </p>
-              <div className="local-scroll">
-                {onePage ? (
-                  <a
-                    href="#contact"
-                    className="btn btn-mod btn-large btn-round btn-hover-anim"
-                  >
-                    <span>Contact us</span>
-                  </a>
-                ) : (
-                  <Link
-                    href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
-                    className="btn btn-mod btn-large btn-round btn-hover-anim"
-                  >
-                    <span>Contact us</span>
-                  </Link>
-                )}
-              </div>
             </div>
           </div>
         </div>
       </section>
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
-        className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
-      >
-        <Benefits />{" "}
-      </section>
-      <section
-        className={`page-section pt-0 pb-0  ${dark ? "light-content" : ""}`}
-      >
-        {" "}
-        {dark ? <Testimonials2 /> : <Testimonials />}
-      </section>
-      <section className={`page-section  ${dark ? " light-content" : ""}`}>
-        {dark ? <Brands2 /> : <Brands />}
-      </section>
-      <section
-        className="page-section bg-dark bg-dark-alpha-70 light-content"
-        style={{
-          backgroundImage:
-            "url(/assets/images/full-width-images/section-bg-4.jpg)",
-        }}
-      >
-        <Features />
-      </section>
-      <section
-        className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
-      >
-        <div className="container position-relative">
+      <section className="page-section">
+        <div className="container">
           <div className="row">
-            {/* Images */}
-            <div className="col-lg-7 d-flex align-items-start mb-md-60 mb-xs-30">
-              <div className="call-action-2-images">
-                <div
-                  className="call-action-2-image-1"
-                  data-rellax-y=""
-                  data-rellax-speed="0.5"
-                  data-rellax-percentage="0.7"
-                >
+            <div className="col-sm-5 mb-xs-50">
+              <div className="call-action-4-images">
+                <div className="call-action-4-image-1">
                   <Image
-                    width={386}
-                    height={400}
-                    src="/assets/images/promo-3.jpg"
-                    alt="Image Description"
+                    src="/assets/images/home/section-image-7.jpg"
+                    alt="Image description"
+                    width={500}
+                    height={692}
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
-                    data-wow-offset={255}
-                  />
-                </div>
-                <div className="call-action-2-image-2">
-                  <Image
-                    width={810}
-                    height={512}
-                    src="/assets/images/promo-4.jpg"
-                    alt="Image Description"
-                    className="wow scaleOutIn"
-                    data-wow-duration="1.2s"
-                    data-wow-offset={134}
                   />
                 </div>
                 <div
-                  className="call-action-2-image-3"
+                  className="call-action-4-image-2"
                   data-rellax-y=""
-                  data-rellax-speed="-0.5"
-                  data-rellax-percentage="0.5"
+                  data-rellax-speed="0.7"
+                  data-rellax-percentage="0.25"
                 >
                   <Image
-                    width={386}
-                    height={500}
-                    src="/assets/images/promo-5.jpg"
-                    alt="Image Description"
+                    src="/assets/images/home/section-image-6.jpg"
+                    alt="Image description"
+                    width={500}
+                    height={692}
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
                     data-wow-offset={0}
@@ -308,95 +130,101 @@ export default function Home1({ onePage = false, dark = false }) {
                 </div>
               </div>
             </div>
-            {/* End Images */}
-            {/* Text */}
-            <div className="col-lg-5 d-flex align-items-center">
-              <div
-                className="wow fadeInUp"
-                data-wow-duration="1.2s"
-                data-wow-offset={255}
-              >
-                <h2 className="section-title mb-50 mb-sm-20">How we work?</h2>
-                <Faq />
-                <div className="local-scroll">
-                  {onePage ? (
-                    <a
-                      href="#contact"
-                      className="btn btn-mod btn-large btn-round btn-hover-anim"
+            <div className="col-sm-7 col-xl-6 offset-xl-1 mt-n10">
+              <div className="wow linesAnimIn" data-splitting="lines">
+                <p className="lead mt-0 mb-40">
+                  We’re proud of our unique selection of artists & vendors and
+                  the exciting, diverse, and often interactive slew of
+                  programming which will range from panels, to workshops, to
+                  interactive stage plays & anime live scoring!
+                  {/* Of course no con
+                  is complete without its rave, and we’ve hand-crafted the
+                  afterparty too.*/}
+                </p>
+                <p className="text-gray mb-40">
+                  Anime Holyground is a first year event but its being put
+                  together by a team who are no stranger to event running & weeb
+                  community alike, and it’s our expression of thanks for
+                  everyone and everything that’s allowed us to develop something
+                  wholly unique in the otaku space while still offering a day of
+                  wonder for hardcore fans and casual watchers alike.
+                </p>
+              </div>
+              {/* <div className="local-scroll wow fadeInUp" data-wow-offset={0}>
+                <Link
+                  href={`/marketplace`}
+                  className="btn btn-mod btn-large btn-round btn-hover-anim"
+                >
+                  <span>Marketplace</span>
+                </Link>
+              </div> */}
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="pt-30">
+        <div id="paddingRightContainer" className="container" />
+        <div className="row g-0">
+          <div className="col-lg-6 mt-n30 mt-md-0 mb-30 mb-md-0">
+            <div
+              id="paddingRight"
+              className={`split-column-right ${
+                dark ? "bg-dark-2" : "bg-dark-1"
+              } light-content position-relative d-flex align-items-center`}
+              data-rellax-y=""
+              data-rellax-speed="0.5"
+              data-rellax-percentage="0.5"
+            >
+              {/* Decorative Dots */}
+              <div className="position-absolute top-0 start-0 pt-2 ps-2 opacity-02">
+                <Image
+                  width={192}
+                  height={222}
+                  src="/assets/images/demo-strong/decoration.svg"
+                  alt=""
+                />
+              </div>
+              {/* End Decorative Dots */}
+              <div>
+                <h2 className="section-title mb-30">
+                  We hope you’ll consider coming to our show!
+                </h2>
+                <p className="mb-50">
+                  All this on the beautiful church floor of the Ridgewood
+                  Presbyterian Church courtesy of Stone Circle Theater.
+                </p>
+                {/* Features List */}
+                <div className="row mt-n20">
+                  {/* Features List Item */}
+                  {/* {featuresListData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="col-sm-6 col-lg-12 col-xl-6 d-flex mt-20"
                     >
-                      <span>Start a Project</span>
-                    </a>
-                  ) : (
-                    <Link
-                      href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
-                      className="btn btn-mod btn-large btn-round btn-hover-anim"
-                    >
-                      <span>Start a Project</span>
-                    </Link>
-                  )}
+                      <div className="features-list-icon">
+                        <i className="mi-check" />
+                      </div>
+                      <div className="features-list-text">{item.text}</div>
+                    </div>
+                  ))} */}
+                  {/* End Features List Item */}
                 </div>
+                {/* End Features List */}
               </div>
             </div>
-            {/* End Text */}
           </div>
-        </div>
-      </section>
-
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
-        className={`page-section  ${dark ? "bg-dark-1 light-content" : ""}`}
-      >
-        <Promo />{" "}
-      </section>
-      <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="blog"
-      >
-        <div className="container position-relative">
-          <div className="row mb-60 mb-xs-30">
-            <div className="col-md-6">
-              <h2 className="section-caption mb-xs-10">Our Blog</h2>
-              <h3 className="section-title mb-0">
-                <span className="wow charsAnimIn" data-splitting="chars">
-                  The latest news
-                </span>
-              </h3>
-            </div>
-            <div className="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
-              <Link
-                href={`/main-blog-columns-2col`}
-                className="link-hover-anim underline align-middle"
-                data-link-animate="y"
-              >
-                Read more in our blog <i className="mi-arrow-right size-18" />
-              </Link>
+          <div className="col-lg-6 d-flex align-items-stretch order-lg-first">
+            <div className="split-image-left">
+              <Image
+                width={1100}
+                height={930}
+                src="/assets/images/home/section-image-8.jpg"
+                alt="Image Description"
+              />
             </div>
           </div>
-          <Blog />
-          {/* Blog Posts Grid */}
-
-          {/* End Blog Posts Grid */}
-        </div>
-      </section>
-      <section
-        className="page-section bg-dark-1 bg-dark-alpha-90 light-content"
-        style={{
-          backgroundImage:
-            "url(/assets/images/full-width-images/section-bg-2.jpg)",
-        }}
-      >
-        <NewsLetter />
-      </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="contact"
-      >
-        <Contact />{" "}
+        </div>{" "}
+        <Split />
       </section>
     </>
   );

@@ -1,3 +1,12 @@
+export const animeHolygroundLinks = [
+  { href: "/mission", text: "Mission" },
+  { href: "/programming", text: "Programming" },
+  { href: "/marketplace", text: "Marketplace" },
+  { href: "/access", text: "Access" },
+  // { href: "/after-party", text: "After Party" },
+  // { href: "/contact", text: "Contact" },
+];
+
 export const strongMultiPages = [
   { href: "/strong-multi-page", text: "Home" },
   { href: "/strong-about", text: "About", className: "active" },
