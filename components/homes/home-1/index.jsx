@@ -36,7 +36,7 @@ export default function Home1({ onePage = false, dark = false }) {
               <div className="call-action-4-images">
                 <div className="call-action-4-image-1">
                   <Image
-                    src="/assets/images/home/section-img-1.jpg"
+                    src="/assets/images/home/section-img-9.jpg"
                     alt="Image description"
                     width={500}
                     height={692}
@@ -45,15 +45,15 @@ export default function Home1({ onePage = false, dark = false }) {
                   />
                 </div>
                 <div className="call-action-4-image-2">
-                  {/* <Image
-                    src="/assets/images//section-img-1.jpg"
+                  <Image
+                    src="/assets/images/home/section-img-1.jpg"
                     alt="Image description"
                     width={500}
                     height={692}
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
                     data-wow-offset="0"
-                  /> */}
+                  />
                 </div>
               </div>
             </div>
